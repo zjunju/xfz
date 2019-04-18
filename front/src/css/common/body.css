@@ -1,0 +1,72 @@
+/*
+Error: Undefined variable: "$navHeight".
+        on line 8 of body.scss
+
+3:     background: #f2f2f2;
+4: }
+5: 
+6: .main{
+7:     width: 100%;
+8:     margin-top: $navHeight + 20px;
+9: 
+10:     .wrapper{
+11:         width: $pageWidth;
+12:         margin: 0 auto;
+13:         overflow: hidden;
+
+Backtrace:
+body.scss:8
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/script/tree/operation.rb:67:in `_perform'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/bin/scss:13:in `<top (required)>'
+C:/Ruby/bin/scss:23:in `load'
+C:/Ruby/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$navHeight\".\A         on line 8 of body.scss\A \A 3:     background: #f2f2f2;\A 4: }\A 5: \A 6: .main{\A 7:     width: 100%;\A 8:     margin-top: $navHeight + 20px;\A 9: \A 10:     .wrapper{\A 11:         width: $pageWidth;\A 12:         margin: 0 auto;\A 13:         overflow: hidden;"; }

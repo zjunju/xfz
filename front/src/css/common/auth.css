@@ -1,0 +1,83 @@
+/*
+Error: Invalid CSS after "...           bord": expected "{", was "}"
+        on line 126 of auth.scss
+
+121:                                     cursor: pointer;
+122:                                 }
+123:                                 .disabled{
+124:                                     color: #ccc;
+125:                                     bord
+126:                                 }
+127:                             }
+128:                         }
+129:                     }
+130:                 }
+131: 
+
+Backtrace:
+auth.scss:126
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.2/bin/scss:13:in `<top (required)>'
+C:/Ruby/bin/scss:23:in `load'
+C:/Ruby/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...           bord\": expected \"{\", was \"}\"\A         on line 126 of auth.scss\A \A 121:                                     cursor: pointer;\A 122:                                 }\A 123:                                 .disabled{\A 124:                                     color: #ccc;\A 125:                                     bord\A 126:                                 }\A 127:                             }\A 128:                         }\A 129:                     }\A 130:                 }\A 131: "; }

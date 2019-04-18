@@ -1,0 +1,145 @@
+@import "../common/init.scss";
+@import "../common/constants.scss";
+@import "../common/header.scss";
+@import "../common/body.scss";
+@import "../common/footer.scss";
+@import "../common/news_list.scss";
+
+
+
+.main{
+    .wrapper{
+        .main-content-wrapper{
+            .banner-group{
+                width: 100%;
+                height: $bannerHeight;
+                background: #0e275e;
+                position: relative;
+                overflow: hidden;
+                z-index: 0;
+
+                .banner-ul{
+                    overflow: hidden;
+                    width: $bannerWidth*4;
+                    position: absolute;
+                    left: 0;
+
+                    li{
+                        float: left;
+                        width: $bannerWidth;
+                        height: $bannerHeight;
+
+                        img{
+                            width: $bannerWidth;
+                            height: $bannerHeight;
+                        }
+                    }
+                }
+
+                .arrow{
+                    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+                    font-size: 70px;
+                    color: #fff;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -45px;
+                    cursor: pointer;
+                    display: none;
+                }
+
+                .left-arrow{
+                    left: 20px;
+                }
+
+                .right-arrow{
+                    right: 20px;
+                }
+
+                .page-control-group{
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: 20px;
+
+                    .page-control{
+                        margin: 0 auto;
+                        overflow: hidden;
+
+                        li{
+                            width: 12px;
+                            height: 12px;
+                            border: 1px solid #fff;
+                            border-radius: 50%;
+                            float: left;
+                            margin: 0 8px;
+                            box-sizing: border-box;
+                            cursor: pointer;
+
+                            &.active{
+                                background: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.main{
+    .wrapper{
+        .main-content-wrapper{
+            .list-outer-group{
+                background: #fff;
+                margin-top: 14px;
+
+                .list-tab{
+                    width: 100%;
+                    height: 66px;
+                    overflow: hidden;
+                    border: 1px solid #eeeeee;
+                    border-left: none;
+                    border-right: none;
+
+                    li{
+                        float: left;
+                        padding: 0 10px;
+                        margin-top: 20px;
+                        a{
+                            color: #878787;
+                        }
+                        &:first-of-type{
+                            border-left: 5px solid $themeColor;
+                        }
+                        &.active{
+                            a{
+                                color: #212121;
+                            }
+                        }
+                    }
+                }
+
+                .list-inner-group{
+                    @include news_list;
+                }
+
+                .load-more-group{
+                    padding: 20px 0;
+                    text-align: center;
+                    .load-more{
+                        width: 402px;
+                        height: 40px;
+                        background: #d2dcea;
+                        color: #6d85ac;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
